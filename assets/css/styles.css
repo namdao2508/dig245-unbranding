@@ -47,7 +47,7 @@ body{
     top: 40px;
 }
 
-.logo{
+#logo{
     position: fixed;
     height: 36px;
     width: 93px;
@@ -133,7 +133,7 @@ body{
     top: 40%;
 }
 
-.mText{
+#mText{
     font-size: 50px;
     text-align: center;
     font-family: ui-serif;
@@ -163,7 +163,7 @@ body{
 }
 
 .list{
-    padding-top: 37%;
+    padding-top: 35%;
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
