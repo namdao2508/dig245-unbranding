@@ -9,6 +9,8 @@ const p6 = document.getElementById("p6");
 const p7 = document.getElementById("p7");
 const p8 = document.getElementById("p8");
 
+console.log("In this project, I was motivated to unbrand a famous whiskey brand Jack Daniel's where if you hover over the logo, the background changes to promote water. I thought this would be an interesting way to juxtapose the similarity between how one can promote an unhealthy versus healthy drink.");
+
 function mOver(){
     console.log("Unbranding");
     bodyElement.style.backgroundImage = "url(assets/img/water.jpg)";
