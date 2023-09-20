@@ -1,4 +1,5 @@
 var bodyElement = document.body;
+var logoImg = document.getElementById("logo");
 const mainText = document.getElementById("mText");
 const p1 = document.getElementById("p1");
 const p2 = document.getElementById("p2");
@@ -14,6 +15,8 @@ console.log("In this project, I was motivated to unbrand a famous whiskey brand 
 function mOver(){
     console.log("Unbranding");
     bodyElement.style.backgroundImage = "url(assets/img/water.jpg)";
+    logoImg.src = "assets/img/waterLogo.png";
+    logoImg.style.width = "40px";
     mainText.innerText = "Refreshing Water";
     p1.innerText = "Classic Tap";
     p2.innerText = "Water & Lemon";
@@ -29,6 +32,9 @@ function mOver(){
 function mOut(){
     console.log("Back To Original");
     document.body.style.backgroundImage = "url(assets/img/jackDan.jpg)";
+    logoImg.src = "assets/img/navLogo.webp";
+    logoImg.style.height = "36px";
+    logoImg.style.width = "93px";
     mainText.innerText = "Make it Count";
     p1.innerText = "Old No. 7";
     p2.innerText = "Jack & Coke";
