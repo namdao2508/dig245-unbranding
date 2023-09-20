@@ -49,6 +49,9 @@ body{
     right: 0;
     left: 0;
     top: 40px;
+    overflow: auto;
+    display: inline-block;
+    z-index: 2;
 }
 
 #logo{
@@ -61,46 +64,18 @@ body{
 }
 
 .headText{
-    width: 100px;
+    float: left;
+    width: 8%;
     color: #baab8f;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: .105em;
     font-size: small;
-    position: fixed;
-    top: 60px;
+    padding-top: 20px;
 }
 
 #hT1{
-    left: 335px;
-}
-
-#hT2{
-    left: 435px;
-}
-
-#hT3{
-    left: 535px;
-}
-
-#hT4{
-    left: 635px;
-}
-
-#hT5{
-    left: 735px;
-}
-
-#hT6{
-    left: 835px;
-}
-
-#hT7{
-    left: 935px;
-}
-
-#hT8{
-    left: 1035px;
+    margin-left: 24%; 
 }
 
 #hT9{
@@ -162,8 +137,8 @@ body{
 
 .list{
     float: left;
-    height: 90px;
-    width: 10%;
+    height: 50px;
+    width: 8%;
     margin: auto;
     border-left: 1px solid #fff;
     text-align: center;
@@ -175,10 +150,12 @@ body{
     padding-top: 3%;
 }
 
-.filler{
-    border-left: black;
+
+#p1{
+    margin-left: 18%;
 }
 
 #p8{
     border-right: 1px solid #fff;
+    margin-right: 17%;
 }
